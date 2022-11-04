@@ -1,0 +1,391 @@
+:root {
+    --accent: #2196F3;
+    --footer-color: #2F303A;
+    --background-white: #ffffff;
+    --background-gray: #F5F4FA;
+    --title: #212121;
+    --main-text: #757575;
+}
+
+body {
+    background-color: var(--background-white);
+    font-family: Roboto, sans-serif;
+    color: var(--title);
+}
+
+/* reset start */
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+/* reset end */
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    /* outline: 2px solid tomato;
+    outline-offset: -2px; */
+}
+
+.section-portfolio,
+.section-team,
+.section-feature {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
+/* logo header/footer */
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #000000;
+    margin-right: 93px;
+}
+
+.logo-accent {
+    color: var(--accent);
+}
+
+/* navigation */
+
+.header {
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-nav,
+.site-nav .list {
+    display: flex;
+    align-items: center;
+}
+
+.list .item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.site-nav .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--title);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent);
+}
+
+/* contact header */
+
+.contact .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-text);
+}
+
+.contact {
+    display: flex;
+}
+
+.contact .link:hover,
+.contact .link:focus {
+    color: var(--accent);
+}
+
+/* main company */
+
+.hero {
+    background-color: var(--footer-color);
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.hero-title {
+    margin-bottom: 30px;
+    /* width: 696px; */
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.button {
+    display: inline-block;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--accent);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero .button {
+    padding: 9px 31px;
+    min-width: 216px;
+    min-height: 50px;
+}
+
+.button:hover,
+.button:focus {
+    background-color: rgba(24, 140, 232, 1);
+}
+
+.section-title {
+    margin-bottom: 50px;
+
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* advantage */
+
+.feature {
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.feature-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-text);
+    width: 270px;
+}
+
+.plus {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* activity */
+
+.activity {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-activity {
+    padding-bottom: 94px;
+}
+
+/* team */
+
+.team {
+    background-color: var(--background-gray);
+}
+
+.section-team .list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-items {
+    text-align: center;
+}
+
+.team-name {
+    margin-bottom: 10px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+
+.job-title {
+    font-size: 16px;
+    line-height: 1.18;        
+    letter-spacing: 0.03em;
+    color: var(--main-text);
+}
+
+.team-card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* main portfolio */
+
+.button.filter {
+    padding: 5px 21px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: var(--background-gray);
+    color: #000000;
+}
+
+.button.filter:hover,
+.button.filter:focus {
+    background-color: var(--accent);
+    color: #ffffff;
+}
+
+.portfolio-btn {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.portfolio-btn .btn-item:not( :last-child) {
+    margin-right: 8px;
+}
+
+
+/* portfolio galery */
+
+.galery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio-item {
+    margin-bottom: 4px;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.item-text {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--main-text);
+}
+
+.galery-card {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border: 1px solid #EEEEEE;
+}
+
+.galery-item {
+    border-bottom: 1px solid #EEEEEE;
+    margin-bottom: 30px;
+}
+
+.galery-item:nth-child(n+7){
+    margin-bottom: 0;
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--footer-color);
+}
+
+.footer .logo {
+    color: #ffffff;
+
+}
+
+.address {
+    font-style: normal;
+}
+
+.address .address-link {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.address .link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: var(--accent);
+}
+
+.item-address {
+    margin-bottom: 9px;
+}
+
+.item-address:last-child {
+    margin-bottom: 0;
+}
+
+.logo-link {
+    text-decoration: none;
+}
+
+.footer .logo-link {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
