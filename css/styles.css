@@ -93,10 +93,6 @@ img {
     margin-right: 50px;
 }
 
-.item-contact:not(:last-child) {
-    margin-right: 30px;
- }
-
 .site-nav .link {
     display: block;
     padding-top: 32px;
@@ -131,6 +127,14 @@ img {
     fill: #757575;
     text-align: center;
     gap: 10px;
+}
+
+.item .link {
+    align-items: center;
+}
+
+.contact .item:not(:last-child) {
+    margin-right: 30px;
 }
 
 .contact {
