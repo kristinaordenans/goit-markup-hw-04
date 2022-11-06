@@ -440,7 +440,6 @@ padding: 16px 32px;
 
 .footer .logo {
     color: #ffffff;
-
 }
 
 .address {
@@ -493,7 +492,6 @@ padding: 16px 32px;
 }
 
 .footer-title {
-    color: #ffffff;
     margin-top: 12px;
     margin-bottom: 20px;
     font-style: normal;
@@ -502,6 +500,7 @@ padding: 16px 32px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #ffffff;
 }
 
 .social-link-footer {
