@@ -95,7 +95,7 @@ img {
 
 .item-contact:not(:last-child) {
     margin-right: 30px;
-}
+ }
 
 .site-nav .link {
     display: block;
@@ -129,16 +129,12 @@ img {
     letter-spacing: 0.02em;
     color: var(--main-text);
     fill: #757575;
-    align-items: center;
+    text-align: center;
     gap: 10px;
 }
 
 .contact {
     display: flex;   
-}
-
-.icon-contact {
-    margin-bottom: 3px; 
 }
 
 .contact .link:hover,
