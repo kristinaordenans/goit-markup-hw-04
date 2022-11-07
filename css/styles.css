@@ -71,6 +71,7 @@ img {
     color: var(--accent);
 }
 
+
 /* NAVIGATION */
 
 .header {
@@ -111,6 +112,7 @@ img {
     color: var(--accent);
 }
 
+
 /* CONTACT HEADER */
 
 .contact .link {
@@ -148,6 +150,7 @@ img {
 }
 
 /* MAIN COMPANY */
+
 
 .hero {
     background-color: var(--footer-color);
@@ -213,6 +216,7 @@ img {
     letter-spacing: 0.03em;
 }
 
+
 /* ADVENTAGE */
 
 .feature {
@@ -239,11 +243,16 @@ img {
 }
 
 .item-plus {
+    display: flex;
     background-color: #F5F4FA;
     border-radius: 4px;
-    padding: 25px 100px;
+    height: 120px;
+    width: 270px;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 30px;
 }
+
 
 /* ACTIVITY */
 
@@ -255,6 +264,7 @@ img {
 .section-activity {
     padding-bottom: 94px;
 }
+
 
 /* TEAM */
 
@@ -322,6 +332,7 @@ img {
     background-color: var(--accent);
 }
 
+
 /* CLIENTS */
 
 .clients {
@@ -330,19 +341,19 @@ img {
     justify-content: center;
 }
 
-.client-icon {
-border: 1px solid #AFB1B8;
-fill: #AFB1B8;
-border-radius: 4px;
-align-items: center;
-justify-content: center;
-width: 170px;
-height: 92px;
-padding: 16px 32px;
+.clients-link {
+    display: flex;
+    border: 1px solid #AFB1B8;
+    fill: #AFB1B8;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
 }
 
-.client-icon:hover,
-.client-icon:focus {
+.clients-link:hover,
+.clients-link:focus {
     fill: #2196F3;
     border: 1px solid #2196F3;
 }
@@ -396,7 +407,6 @@ padding: 16px 32px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
-    
 
 .galery-item:hover,
 .galery-item:focus {
@@ -427,6 +437,7 @@ padding: 16px 32px;
 .galery-item:nth-child(n+7){
     margin-bottom: 0;
 }
+
 
 /* FOOTER */
 
